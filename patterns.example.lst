@@ -1,0 +1,14 @@
+R /etc   
+R /root
+R /var
+R /home
+- /home/**/tailscale/
+- **/.cache/
+- **/log/
+- **/logs/
+- **/cache/
+- **/node_modules/
+- **/vendor/
+- **/typo3temp/
+- **/composer-cache/
+- **/.git/
