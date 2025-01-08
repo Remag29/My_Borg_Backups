@@ -5,6 +5,7 @@ R /home
 - /home/**/tailscale/
 - /var/lib/docker/
 - **/.cache/
+- **/.rustup/
 - **/log/
 - **/logs/
 - **/cache/
