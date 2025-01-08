@@ -11,6 +11,7 @@ set +o allexport
 # Setting this, so the repo does not need to be given on the commandline:
 export BORG_REPO=${ENV_BORG_REPO}
 export BORG_PASSCOMMAND="cat ${ENV_BORG_PASSPHRASE_FILE}"
+LOG=${ENV_BORG_LOG_DIRECTORY}${ENV_BORG_LOG_FILE}
 
 ##
 ## write output to log file
