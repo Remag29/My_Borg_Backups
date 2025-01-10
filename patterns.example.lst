@@ -4,6 +4,7 @@ R /var
 R /home
 - /home/**/tailscale/
 - /var/lib/docker/
+- /var/lib/containerd/
 - **/.cache/
 - **/.rustup/
 - **/log/
