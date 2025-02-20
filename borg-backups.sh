@@ -57,12 +57,15 @@ info "Pruning repository"
 # other machines' archives also:
 
 borg prune                          \
+    -v                              \
     --list                          \
-    --glob-archives '{hostname}-'   \
+    --glob-archives '{hostname}-*'  \
     --show-rc                       \
     --keep-daily    14              \
     --keep-weekly   4               \
     --keep-monthly  6               \
+    --keep-yearly   1               \
+    --save-space
 
 prune_exit=$?
 
