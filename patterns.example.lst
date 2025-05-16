@@ -10,6 +10,8 @@ R /var/lib/docker/volumes
 - **/cache/
 - **/node_modules/
 - **/vendor/
+- **/python-venv/
+- **/venv/
 - **/typo3temp/
 - **/composer-cache/
 - **/.git/
